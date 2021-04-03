@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/391220/da1a72c9ef22b4ff13a9060992d3db37efc6117f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-content{
+    width: 50%;
+    margin: 170px auto;
+    overflow: hidden;
+    border: 1px solid white;
+
+}
+.hder-1{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#form-login{
+    padding:0 50px;
+    overflow: hidden;
+}
+form{
+    padding: 10px;
+}
+input[type=text],input[type=password]
+{   
+    width: 100%;
+   /* padding:7px 15px;*/
+    background: rgba(0,0,0,0);
+    color: white;
+ border: none;
+ 
+}
+input:invalid {
+    border-color: red;
+}
+input,
+input:valid {
+    border-color: #ccc;
+}
+.submit{
+    width: 50%;
+    margin: 10px auto;
+}
+#myProgress {
+    width: 100%;
+    
+    position: relative;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    background-color: rgba(0,0,0,0.5);
+    width: 10px;
+ text-align: center;
+    position: absolute;
+  }
+  #myProgress {
+    width: 100%;
+    
+    position: relative;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    background-color: rgba(0,0,0,0.5);
+    width: 10px;
+ text-align: center;
+    position: absolute;
+  }
+  #myBar1 {
+    background-color: rgba(0,0,0,0.5);
+    width: 10px;
+ text-align: center;
+    position: absolute;
+  }
+#psw1{
+    border-bottom: 1px solid white;
+}
+#psw2{
+    border-bottom: 1px solid white;
+}
+input[type=submit]
+{
+    width: 100%;
+    /* padding:7px 15px;*/
+     background: rgba(0,0,0,0);
+     color: white;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+input:focus
+{
+  background: rgba(0,0,0,0);
+   outline-width: 0;
+   border: none;
+   
+}
+.user-name{
+    color: white;
+}
+#username{
+    border-bottom: 1px solid white;
+}

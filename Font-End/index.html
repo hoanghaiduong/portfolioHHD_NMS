@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/a65c8a6e96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <title>PortFolio</title>
+</head>
+
+<body id="body">
+ <!--Tạo navbar--> 
+
+    <div id="baoimg">
+        <a href="#" >
+            <img src="https://bizweb.dktcdn.net/100/411/009/themes/801151/assets/top_banner.jpg?1616061697287" alt="SaleFree" width="85%" height="100%">
+        </a>
+    </div>
+<div class="container-fluid"  id="menu-banner">
+    <div class="container">
+        <div class="row" id="padi-banner">
+            <div class="col-xl-1">
+                <div class="row">
+                    <div class="baoimg-ban">
+                        <a href="">
+                            <img src="https://bizweb.dktcdn.net/100/411/009/themes/801151/assets/logo.png?1616061697287" alt="" width="100px">
+                        </a>    
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5" id="concac123">
+             <form action="" method="GET" aria-controls="#search" aria-expanded="false">
+                 <label for="search"></label>
+                 <input type="text" id="search" name="search" placeholder="Nhập nội dung tìm kiếm...">
+                 
+             </form>
+            </div>
+            <div class="col-xl-2" id="concac123">
+                <i class="fas fa-phone-alt" style="color: white;">&nbsp;&nbsp;  </i>
+                <span class="boydban text-white">Hỗ trợ Khánh hàng
+                  <a href="tel:0929680125" class="text-white" style="text-decoration: none;font-weight: bold;">&nbsp;0929680125</a>
+                </span>
+                <br>
+               
+            </div>
+            <div class="col-xl-2" id="concac123">
+                <i class="fas fa-user" style="color: blanchedalmond;">&nbsp;&nbsp;</i>
+                <span class="text-white">
+                    <div class="taikhoan">
+                        <a href="#"class="text-white"style="text-decoration: none;" id="login">Tài khoản</a>
+                    </div>
+                  
+                  <div class="taikhoan">
+                    <a href="../Font-End/BT JS2/INDEX.html"class="text-white" style="text-decoration: none;" id="login">Đăng Nhập</a>
+                  </div>
+                  
+                </span>
+                
+            </div>
+            <div class="col-xl-2" id="concac123">
+                <div class="btn btn-outline-default">
+                    <a href="#" title="Giỏ hàng" style="color:white;" class=" giohang">
+                        <i class="fas fa-shopping-bag">&nbsp;&nbsp;
+                            <span class="text-white">Giỏ hàng</span>
+                            <span class="sogiohang">0</span>
+                        </i>
+                     
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid">
+        <div class="row" id="divphevc">
+           <!--Bắt đầu cột trái--><div class="col-md-2"  id="menudleft">
+            <button type="button" onclick="" class="btn btn-outline-secondary bg-dark text-white" data-toggle="collapse" data-target="#menu-left" style="margin:5px auto;"><span class="fa fa-bars">&nbsp;</span> Menu</button>
+            
+            <div id="menuleft">
+                <ul id="menu-left" class="collapse">
+                   <li><i class="fas fa-home"><a href="#">&nbsp;Trang Chủ</a></i></li>
+                   <li ><i class="fas fa-users"><a href="https://hoanghaiduong1711.zyrosite.com/">&nbsp;Về chúng tôi</a></i></li>
+                   <li><i class="fas fa-comment"><a href="https://www.facebook.com/duong.hoanghai.798/">&nbsp;Liên Hệ</a></i></li>
+                 
+                   <li><i class="fas fa-share-alt"><a href="https://www.facebook.com/congdongitviet">&nbsp;Cộng Đồng</a></i></li>
+                   <li><i class="fas fa-bell"><a data-toggle="collapse" onclick="" data-target="#thongb" href="#">&nbsp;Thông Báo</a></i></li>
+                  <div id="thongb" class="collapse">
+                    <a href="#"><span class="badge badge-info fa-spin">5</span>Messenger</a>
+                    <br>
+                    <a href="#"><span class="badge badge-primary fa-pulse">32</span>Facebook</a>
+                    <br>
+                    <a href="#"><span class="badge badge-danger fa-spin">99+</span>&nbsp;Zalo</a>
+                  </div>
+                  <hr style="background-color: black;">
+                  <!-- <li><i class="fab fa-facebook-messenger fa-spin" style="font-size: 70px;"><a href="">&nbsp;</a></i></li>-->
+                   <li ><i class="fas fa-angle-double-right ahihi"><a href="#danhm" data-target="#danhm" data-toggle="collapse">&nbsp;Danh Mục</a></i></li>
+                  <div id="danhm" class="collapse">
+                    <li><i class="fas fa-angle-down"><a href="#">&nbsp;Danh mục việc làm</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Danh mục học tập</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Danh mục kĩ năng phỏng vấn</a></i></li>
+                  </div>
+                  <hr>
+                   <li><i class="fas fa-angle-right"><a data-toggle="collapse" data-target="#cacthuthuat0" href="#">&nbsp;Các Thủ Thuật</a></i></li>
+                  <div id="cacthuthuat0" class="collapse">
+                    <li><i class="fas fa-angle-down"><a href="#">&nbsp;Phá icould iphone</a></i></li>
+                    <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật bypass iphone</a></i></li>
+                    <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật jaibreak iphone</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật root Android</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật HackPhone S40</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật HackPhone S60</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật Hack Game S40</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật Hack Game S60</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật setting S40</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Thủ thuật setting S60</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Game tiếng việt S40</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Game tiếng việt S60</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Theme S40</a></i></li>
+                   <li><i class="fas fa-angle-down"><a href="#">&nbsp;Theme S60</a></i></li>
+                  </div>
+                  <hr>
+                  <li><i class="far fa-paper-plane" id="plane"><a data-toggle="collapse" data-target="#cacthuthuat1" href="#">&nbsp;Các Mẹo Vặt Cuộc Sống</a></i></li>
+                  <div id="cacthuthuat1" class="collapse">
+                    <ul>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Uống bia không say(tết)</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Cách bắt chuyện với người lạ hiệu quả nhất</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Nếu đang ở trong thang máy có kẻ tình nghi</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Dự đoán thời tiết chỉ với một cốc nước </a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Dập tắt chảo lửa đang cháy bằng baking soda</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Sử dụng điện thoại như một phản xạ </a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Nướng pizza</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Cắt ớt chuông đúng cách</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Loại bỏ phần dầu thừa</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Bóc vỏ cam, vỏ quýt</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Tách lòng đỏ và lòng trắng trứng</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp;Tái sử dụng chai đựng sốt cà chua</a></span></li>
+                        <li><span class="fas fa-minus"><a href="#">&nbsp; Dùng ống mút loại bỏ cuống của dâu tây</a></span></li>
+
+                    </ul>
+                  </div>
+                  <hr>
+                  <li><i class="fas fa-angle-down"><a href="#" data-target="#cacthuthuat2"
+                    data-toggle="collapse">&nbsp;Món Ngon Mỗi Ngày</a></i></li>
+                    <div id="cacthuthuat2" class="collapse">
+                        <ul>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Lươn nướng sả</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Canh gân bò chua cay</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Mì EFU xào nấm trà</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Bún Thái</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Salad cam cá hồi</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Gà nướng lửa trại</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Gà xào vị Thái</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Cá diêu hồng ngũ vị nướng xốt thơm</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Bắp bò om gừng sả</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Mực nhồi tôm xốt tiêu xanh</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Ốc bươu xào tiêu xanh</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Cá chim nướng ớt xiêm</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Chân giò om sấu</a></span></li>
+                            <li><span class="fas fa-minus"><a href="#">&nbsp;Tôm chiên dừa xốt bạc hà</a></span></li>
+                            <li><span class="fas fa-minus"><a href="https://monngonmoingay.com/">&nbsp;...Xem thêm</a></span></li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <li><i class="fas fa-angle-down"><a href="https://topdev.vn/" data-target="#cacthuthuat3"
+                        data-toggle="collapse">&nbsp;Tổng quan về các NNLT</a></i></li>
+                        <div id="cacthuthuat3" class="collapse">
+                            <ul>
+                                <li><span class="fas fa-minus"><a href="#">&nbsp;AHIHI</a></span></li>
+                                <li><span class="fas fa-minus"><a href="#">&nbsp;AHAHA</a></span></li>
+                            </ul>
+                        </div>
+                </ul>
+            </div>
+           </div><!--ket thuc cột trái-->
+           <!--Bắt đầu cột phải-->
+            <div class="col-md-10" id="colmd11">
+              
+                <div class="container-fluid">
+                    <div id="headerr">
+                        <h1 class="hd-text">
+                            WELCOME TO THE WORLD OF PROGRAMMING
+                        </h1>
+                    
+                        </div>
+                    </div>
+                    <div id="cotphai">
+                   <div id="img-hed">
+                    <img src="https://www.mp3ring.org/public/amongus/Assets/PLAYER/PURPLE.png" alt="" width="100px" class="amoung-big">
+                   
+                      <span class="amoung2">
+                          
+                         <img src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/231/among-us-player-light-blue-512.png" alt="" width="100px">
+                        </span>
+                       
+                    </div>
+<br>
+               
+<hr>
+    <div class="gtuser">
+        <div class="row">
+            <div class="col-md-3" id="img-user">
+                <div class="img-user">
+                    <img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/122438471_731194591142440_5466893557424981813_o.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=jOT34z5OcgcAX9xeSjL&_nc_ht=scontent.fsgn2-1.fna&oh=071f1247f785ac283d125ded6eda737f&oe=60808D56" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="about-user">
+                    <h3 class="name-us" style="text-decoration: underline 1px solid gold;">&#9755;	Hoàng Hải Dương  &#9754;	</h3>
+                    <p class="GT-us">
+                        <i class="">&#9894;&nbsp;
+                            Nam&nbsp;&#9894;</i>
+                    </p>
+                    <h4 class="ns-us">
+                        Ngày sinh:&nbsp;17-11-2002
+                    </h4>
+                    <h4 class="nn-us">
+                       Nghề Nghiệp:&nbsp; PROGRAMMING
+                    </h4>
+                   
+                    <h4 class="gt-us">Giới thiệu:  
+                    </h4>
+                    <p>Xin chào các bạn trẻ đến với trang web của chúng tôi,thành thật mà nói chúng tôi là những nhà phát triển web hàng đầu chỉ sau tổ chức vê kép 3 thế giới hay còn gọi là tổ chức world wide web (w3school).Chúng tôi chuyên đào tạo ra những lập trình viên có kinh nghiệm cao hiện tại những học viên của chúng tôi đã và đang đi làm tại các doanh nghiệp địa phương thậm chí còn làm việc ở nước ngoài với mức lương khá cao.</p>
+                    <p id="collapsevb"></p>
+                </div>
+            </div>
+            <div class="col-md-5" id="anhw3">
+                <img src="https://i.pinimg.com/originals/f5/67/90/f5679000e10f24b5a3b011e5b39b6304.png" alt="" width="98%"  style="background-image: none;" height="300px">
+            </div>
+        </div>
+    </div>
+    <br>
+ <div class="row" id="gioithieucacloai">
+     <div class="col-md-4 col-xl-4 col-lg-4">
+         <!--Tạo img và chữ bên cạnh-->
+       <div id="box-hd1">
+        <div class="img-bs">
+            <img src="https://blog.codedthemes.com/wp-content/uploads/2020/03/b-5.png" alt="Boostrap4" width="100%" height="100%">
+         </div>
+       
+         <div class="hd-bs">
+            <h3 class="nd-hd-bs">Giới thiệu về Bootstrap</h3>
+         </div>
+          
+             <div class="body-bs">
+                 BOOTSTRAP LÀ GÌ ? TÌM HIỂU VỀ BOOTSTRAP
+                 Bootstrap là Front-end framework, là một bộ sưu tập miễn phí các công cụ để tạo ra các
+                 trang web và các ứng dụng web. Nó chứa HTML và CSS dựa trên các mẫu thiết kế cho kiểu
+                 chữ, hình thức, các nút, chuyển hướng và các thành phần giao diện khác, cũng như mở rộng
+                 JavaScript tùy chọn.
+                 Bootstrap là Front-end framework, là một bộ sưu tập miễn phí các công cụ để tạo ra các
+                 trang web và các ứng dụng web. Nó chứa HTML và CSS dựa trên các mẫu thiết kế cho kiểu
+                 chữ, hình thức, các nút <a href="#boxnoidung1" aria-expanded="false" data-toggle="collapse"
+                     onclick="myfunction()">&#8659;&#8659;</a>
+                 <div class="collapse" id="boxnoidung1">
+                     , chuyển hướng và các thành phần giao diện khác, cũng như mở rộng
+                     JavaScript tùy chọn.
+                     thiết kế website với bootstrap
+                     Bootstrap được phát triển bởi Mark Otto và Jacob Thornton tại Twitter như một
+                     framework,
+                     một công cụ để phục vụ công việc nội bộ của Twitter. Trước khi phát triển Bootstrap,
+                     có
+                     nhiều thư viện khác nhau đã được sử dụng để phát triển giao diện, dẫn đến mâu thuẫn,
+                     xung đột. Bootstrap ra đời để khắc phục những yếu tố này, cũng như giúp các nhà phát
+                     triển, lập trình tại Twitter có thể triển khai công việc nhanh hơn, tiện lợi và đồng
+                     bộ
+                     hơn.
+            
+                     Bootstrap tương thích với các phiên bản mới nhất của tất cả các trình duyệt nổi
+                     tiếng
+                     trên thế giới như Chrome, Firefox, IE, Opera....
+            
+                     Kể từ phiên bản 2.0 trở lên nó cũng hỗ trợ Responsive Web Design. Thiết kế và bố trí
+                     của
+                     các trang web tự động điều chỉnh, tự động tương thích các thiết bị được sử dụng (máy
+                     tính để bàn, máy tính bảng, điện thoại di động).
+            
+                     Một số ưu điểm chính của Boostrap:
+                     1. Tiết kiệm thời gian:
+                     Boostrap giúp người thiết kế giao diện website tiết kiệm rất nhiều thời gian. Các
+                     thư
+                     viện Bootstrap có những đoạn mã sẵn sàng cho bạn áp dùng vào website của mình. Bạn
+                     không
+                     phải tốn quá nhiều thời gian để tự viết code cho giao diện của mình.
+            
+                     2. Tùy biến cao
+                     Bạn hoàn toàn có thể dựa vào Bootstrap và phát triển nền tảng giao diện của chính
+                     mình.
+                     Bootstrap cung cấp cho bạn hệ thống Grid System mặc định bao gồm 12 bột và độ rộng
+                     940px. Bạn có thể thay đổi, nâng cấp và phát triển dựa trên nền tảng này.
+            
+                     3. Responsive Web Design
+                     Với Bootstrap, việc phát triển giao diện website để phù hợp với đa thiết bị trở nên
+                     dễ
+                     dàng hơn bao giờ hết. Đây là xu hướng phát triển giao diện website đang rất được ưu
+                     chuộng trên thế giới.
+                 </div>
+             </div>
+       </div>
+             <!--Kết thúc card-text-->
+         
+        </div><!--ket thuc cot 1-->
+     <div class="col-md-4 col-xl-4 col-lg-4">
+         <!--Tạo img và chữ bên cạnh-->
+       <div id="box-hd1">
+        <div class="img-bs">
+            <img src="https://vncoder.vn/upload/img/post/1591524928.jpg" alt="JavaScript" width="100%" height="100%">
+        </div>
+      
+    <div class="hd-bs">
+         <h3 class="nd-hd-bs">Giới thiệu về JavaScript</h3>
+    </div>
+        
+         <div class="body-bs">
+             JavaScript là một ngôn ngữ lập trình đa nền tảng (cross-platform), ngôn ngữ lập trình
+             kịch bản, hướng đối tượng. JavaScript là một ngôn ngữ nhỏ và nhẹ (small and
+             lightweight). Khi nằm bên trong một môi trường (host environment), JavaScript có thể kết
+             nối tới các object của môi trường đó và cung cấp các cách quản lý chúng (object).
+             JavaScript chứa các thư viện tiêu chuẩn cho các object, ví dụ như: Array, Date, và Math,
+             và các yếu tố cốt lõi của ngôn ngữ lập trình như: toán tử (operators), cấu trúc điều
+             khiển(control structures) <a href="#boxnoidung2" aria-expanded="false"
+                 data-toggle="collapse" onclick="myfunction2()">&#8659;&#8659;</a>
+             <div class="collapse" id="boxnoidung2">
+                 và câu lệnh. JavaScript có thể được mở rộng cho nhiều mục
+                 đích bằng việc bổ sung thêm các object; ví dụ:
+        
+                 Client-side JavaScript - JavaScript phía máy khách, JavaScript được mở rộng bằng
+                 cách
+                 cung cấp các object để quản lý trình duyệt và Document Object Model (DOM) của nó. Ví
+                 dụ,
+                 phần mở rộng phía máy khách cho phép một ứng dụng tác động tới các yếu tố trên một
+                 trang
+                 HTML và phản hồi giống các tác động của người dùng như click chuột, nhập form, và
+                 chuyển
+                 trang.
+                 Server-side JavaScript - JavaScript phía Server, JavaScript được mở rộng bằng cách
+                 cung
+                 cấp thêm các đối tượng cần thiết để để chạy JavaScript trên máy chủ. Ví dụ, phần mở
+                 rộng
+                 phía server này cho phép ứng dụng kết nối với cơ sở dữ liệu (database), cung cấp
+                 thông
+                 tin một cách liên tục từ một yêu cầu tới phần khác của ứng dụng, hoặc thực hiện thao
+                 tác
+                 với các tập tin trên máy chủ.
+             </div>
+         </div>
+       </div>
+             <!--Kết thúc card-text-->
+        
+     </div>
+            
+        <div class="col-md-4 col-xl-4  col-lg-4">
+         <!--Tạo img và chữ bên cạnh-->
+         <div id="box-hd1">
+            <div class="img-bs">
+                <img src="https://cdn.w3villa.com/assets/56/original/Uploading_Files__Image_With_Ajax___Jquery.png" alt="jquery" width="100%" height="100%">
+            </div>
+          
+              <!--để ảnh ở đây-->
+             <div class="hd-bs">
+                 <h3 class="nd-hd-bs">
+                     Giới thiệu về Jquery
+                 </h3>
+             </div>
+                 <div class="body-bs">
+                  jQuery là một thư viện JavaScript nhỏ gọn, chạy nhanh. jQuery giải quyết các vấn đề
+                  tương tác với HTML, bắt sự kiện, hiệu ứng động ... trở lên rất đơn giản.
+                  Mọi tính năng của jQuery thực ra nó bao bọc các lệnh, hàm của JavaScript nên để hiểu
+                  jQuery bạn cần hiểu về HTML cơ bản cũng như CSS cơ bản trước.
+             
+                  Các tính năng chính jQuery cung cấp gồm:
+                  Tương tác với HTML/DOM
+                  Tương tác với CSS
+                  Bắt và xử lý sự kiện HTML
+                  Các hiệu ứng và chuyển động trong HTML
+                  AJAX (Asynchronous JavaScript and XML)
+                  JSON parsing
+                  Các tiện ích xây dựng sẵn
+                  <a href="#boxnoidung3" aria-expanded="false" data-toggle="collapse"
+                      onclick="myfunction3()">&#8659;&#8659;</a>
+                  <div class="collapse" id="boxnoidung3">
+                      Tại sao nên chọn jQuery
+                      Hiện nay có nhiều JavaScript Framework xuất hiện nhưng jQuery vẫn là Framework phổ
+                      biến
+                      nhất và nhiều thành phần mở rộng cài thêm (extend). Nhiều công ty công nghệ lớn sử
+                      dụng
+                      jQuery như Google, Microsoft, IBM, Netflix ...
+             
+                      Ngoài ra jQuery còn tương thích với nhiều trình duyệt khác nhau thậm chí là IE6, bạn
+                      thật sự không cần bận tâm nhiều về việc code của mình không chạy được trên các trình
+                      duyệt khác nhau.
+                  </div>
+              </div>
+         </div>
+        
+        </div>
+     <!--ket thuc div card-->
+ </div>
+ <br>
+ <div id="noidungmain">
+     <h1 class="tsnhlt">10 lý do khiến bạn nên học lập trình website</h1>
+     <div id="imagemain">
+         <img src="./img/lap-trinh-website-la-gi.jpg" alt="" width="400px" height="350px"
+             class="text-center">
+     </div>
+     <div class="container-fluid">
+         <div class="row" id="hailoiich">
+             <div class="col-md-6" id="loiich1">
+                 <ul>
+                     <li><i class="fa fa-check" style="color: #24fc10;"><a href="#noidungloiich1"
+           aria-expanded="false" data-toggle="collapse">Công nghệ ở mọi nơi</a></i>
+                     </li>
+                     <div id="noidungloiich1" class="collapse">
+   Trong thế giới công nghệ ngày càng phát triển như hiện nay, càng nhiều kỹ năng thì
+   bạn càng có giá trị. Chẳng hạn nếu bạn là một chuyên gia về Illustrator và
+   Photoshop, nhưng bạn cũng quen thuộc với PHP và WordPress (Hoặc CSS và HTML).
+            
+   Mỗi một kỹ năng này sẽ giúp bạn trở nên hấp dẫn hơn trong mắt khách hàng và người
+   tuyển dụng. Bạn càng có nhiều kỹ năng, càng nắm rõ về code thì bạn càng có nhiều cơ
+   hội thăng tiến trong sự nghiệp.
+            
+                     </div>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich2"
+           aria-expanded="false" data-toggle="collapse">Tính linh hoạt</a></i></li>
+                     <div id="noidungloiich2" class="collapse">
+   Hiện nay, ngành công nghệ cao không còn chỉ đơn thuần là ngành công nghiệp công
+   nghệ. Máy tính và code có ở khắp mọi nơi từ văn phòng chính phủ đến trường học, bệnh
+   viện. Tất cả đều dựa vào cơ sở hạ tầng kỹ thuật số, điều đó có nghĩa là cơ hội việc
+   làm cho các lập trình viên sẽ ngày càng tăng cao.
+            
+   Tech là một lĩnh vực cực kỳ linh hoạt và đa dạng, bạn sẽ không bao giờ biết nó có
+   thể đưa mình đến đâu. Thế nhưng, bạn sẽ cần phải có công cụ trong hành trình đó và
+   việc học coding chính là chiếc chìa khóa mà bạn phải tìm kiếm.
+                     </div>
+                     <li><i class="fa fa-check" style="color: #24fc10;"><a href="#noidungloiich3"
+           aria-expanded="false" data-toggle="collapse"> Kiếm thêm tiền</a></i></li>
+                     <div id="noidungloiich3" class="collapse">
+   Tiền không phải là tất cả, nhưng nó rất quan trọng và ai cũng muốn kiếm tiền nhiều
+   hơn. Với một nghiên cứu năm 2014, các vị trí bắt đầu trong IT tại một số công ty dao
+   động từ 88.500 đô la đến 128.000 đô la.
+            
+   Nói cách khác, cuộc sống của bạn sẽ cải thiện đáng kể khi mức chi tiêu trở nên thoải
+   mái hơn, bớt phải bận tâm về gánh nặng tiền bạc.
+                     </div>
+                     <li><i class="fa fa-check" style="color: #24fc10;"><a href="#noidungloiich4"
+           aria-expanded="false" data-toggle="collapse">Không lo thất nghiệp</a></i>
+                     </li>
+                     <div id="noidungloiich4" class="collapse">
+   Các công việc lập trình đang tăng nhanh hơn 12% so với mức trung bình của thị trường
+   và 50% so với thị trường việc làm nói chung (theo burning-glass.com). Vì thế, nếu
+   được trang bị những kỹ năng này, bạn sẽ không lo việc bị thất nghiệp.
+            
+   Bên cạnh đó, bạn cũng sẽ có được các đặc quyền như khả năng làm việc từ xa với lịch
+   công việc linh hoạt và mức lương cao hơn hẳn nhiều người.
+                     </div>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich5"
+           aria-expanded="false" data-toggle="collapse">Học lập trình thì dễ để học
+           trực tuyến</a></i></li>
+                     <div id="noidungloiich5" class="collapse">
+   Học lập trình thì dễ học trực tuyến, mà học trực tuyến thì chi phí thấp hơn, có đa
+   dạng sự lựa chọn hơn và học cũng rất hiệu quả. Khi biết về lập trình website thì học
+   trực tuyến cái gì cũng dễ (chẳng hạn học tiếng Anh trực tuyến,…) hoặc thậm chí bạn
+   cũng có thể học qua lập trình ứng dụng di động
+                     </div>
+                 </ul>
+             </div>
+             <div class="col-md-6" id="loiich2">
+                 <ul>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich6"
+           aria-expanded="false" data-toggle="collapse">Tư duy sáng tạo</a></i></li>
+                     <div id="noidungloiich6" class="collapse">
+   Ở bất kỳ ngành nghề nào thì tư duy sáng tạo cũng là một kỹ năng quan trọng, đặc biệt
+   trong lĩnh vực công nghệ. Code chính là ngôn ngữ của sự sáng tạo của chính bạn. Do
+   đó, việc học cách viết code sẽ không chỉ mang đến những lợi ích liên quan trực tiếp
+   đến kỹ năng lập trình mà còn giúp bạn trau dồi tư duy logic, đưa bạn đến với một cấp
+   độ giải quyết vấn đề hoàn toàn mới.
+                     </div>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich7"
+           aria-expanded="false" data-toggle="collapse"> Bạn có thể làm gần như mọi
+           thứ!</a></i></li>
+                     <div id="noidungloiich7" class="collapse">
+   Kỹ năng mã hóa là thứ cho phép bạn xây dựng các website và ứng dụng bạn cần để hoàn
+   thành công việc mà không phải dựa vào những người khác. Trong một thế giới kinh
+   doanh thì ứng dụng và các trang web là yếu tố cực kỳ quan trọng, khả năng để làm
+   những việc này cho chính bạn sẽ giúp tăng năng suất và hiệu quả trong công việc.
+            
+   Bạn có thể tự tạo nội dung của riêng mình trong HTML để mọi thứ đều đi theo đúng như
+   ý muốn. Bạn cũng sẽ không cần phải chờ hỗ trợ kỹ thuật để giúp điều hành trang web,
+   blog hay email. Mọi thứ sẽ được tạo từ bởi chính bạn.
+                     </div>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich8"
+           aria-expanded="false" data-toggle="collapse">Làm chủ robot</a></i></li>
+                     <div id="noidungloiich8" class="collapse">
+   Khi automation liên tục phát triển và thay thế dần cho lực lượng lao động thì nhiều
+   công việc cũng sẽ bắt đầu tuyển robot vào làm. Một điều chắc chắn là con người vẫn
+   sẽ cần thiết để lập trình và giám sát các hệ thống tự động.
+            
+   Nghĩa là vị trí của bạn sẽ được cải thiện và nhảy vọt thành những nhà quản lí cấp
+   cao từ người làm công..
+                     </div>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich9"
+           aria-expanded="false" data-toggle="collapse">Sức mạnh của ngôn ngữ</a></i>
+                     </li>
+                     <div id="noidungloiich9" class="collapse">
+   Nhiều người đã chuyển đến những đất nước phát triển nhiều, thành thạo nhiều thứ ngôn
+   ngữ. Những kỹ năng ngôn ngữ đó là chìa khóa giúp những con người đó từ một công dân
+   nhập tịch trở thành những manager tại những hãng nổi tiếng.
+            
+   Trong thế giới lập trình cũng thế, khả năng sử dụng được nhiều ngôn ngữ khác nhau sẽ
+   giúp bạn thăng tiến vượt bậc và đạt tới những đỉnh cao mới.
+                     </div>
+                     <li><i class="fa fa-check" style="color:  #24fc10;"><a href="#noidungloiich10"
+           aria-expanded="false" data-toggle="collapse">Xu hướng là các ứng dụng
+           desktop và mobile</a></i></li>
+                     <div id="noidungloiich10" class="collapse">
+   Xu hướng là các ứng dụng desktop và mobile đều có kết nối với server để đồng bộ và
+   lưu trữ dữ liệu, nên cần các ngôn ngữ serverside như MySQL, PHP,…
+            
+   Nhiều ứng dụng desktop ngày nay đều có phiên bản web tương ứng (Office 360 và MS
+   Office), thậm chí chỉ có phiên bản web (Google Docs). Nhiều ứng dụng mobile có bản
+   web (Linkhay, Youtube)
+                     </div>
+                 </ul>
+             </div>
+         </div>
+         <h1 class="tsnhlt">
+             Hãy đến với chúng tôi
+         </h1>
+         <div class="imgtsnhlt">
+             <img src="./img/quangcao.PNG" alt="" style="width: 100%;">
+         </div>
+         <!--ket thuc hinh anh quang cao-->
+         <br>
+         <h2 class="loivahai">Khi đăng ký combo bạn <span style="color: red;font-style: italic;">được</span>
+             và <span style="color: rgb(128, 128, 8);font-style: italic;">mất</span> gì?</h2>
+         <p style="text-align: center;font-weight: bold;">Bạn cần xem kỹ để đưa ra quyết định đúng đắn</p>
+         <div class="container-fluid">
+             <div class="row" id="duocvamat">
+                 <div class="col-md-5" id="cot1duoc">
+                     <div class="card" id="cot2duoc">
+   <div class="card-header">
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-11"
+                   style="font-size: 24px; font-weight: bold; display: inline-block; color: #1b62fd;">
+                   Bạn được gì khi nâng cấp gói combo 8 &#9786;&#9786;&#9786;</div>
+               <div class="col-md-1">
+                   <img src="./img/nutlike.PNG" alt="" width="50px">
+               </div>
+               <!--ketthucnutlike-->
+           </div>
+       </div>
+   </div>
+   <img src="" alt="" class="card-img-top">
+            
+   <div class="container-fluid" id="duoc">
+            
+       <p>&#9755;&nbsp;Tiết kiệm ~2.000.000đ, đây là một khoản tiền không nhỏ chút nào.
+       </p>
+       <p>&#9755;&nbsp;Tập trung hoàn toàn vào việc học qua 10 giai đoạn mà không bị
+           ngắt
+           quảng.</p>
+       <p>&#9755;&nbsp;Làm chủ xây dựng website thực tế và kiếm được tiền.</p>
+       <p>&#9755;&nbsp;Bạn có cơ hội học đi làm chỉ sau 3-5 tháng</p>
+            
+   </div>
+            
+                     </div>
+                 </div>
+                 <div class="col-md-5" id="cot1duoc">
+                     <div class="card" id="cot2duoc">
+   <div class="card-header">
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-11"
+                   style="font-size: 24px; font-weight: bold; display: inline-block; color: #1b62fd;">
+                   Bạn mất gì khi không nâng cấp gói combo 8 &#9785;&#9785;&#9785;
+               </div>
+               <div class="col-md-1">
+                   <img src="./img/dislike.PNG" alt="" width="50px">
+               </div>
+               <!--ketthucnutlike-->
+           </div>
+       </div>
+   </div>
+   <img src="" alt="" class="card-img-top">
+            
+   <div class="container-fluid" id="mat">
+            
+       <p>&#9760;&nbsp;Quá trình học có thể bị dán đoạn không được liền mạch.</p>
+       <p>&#9760;&nbsp;Không có đủ áp lực, sự tập trung để giúp bạn phát triển</p>
+       <p>&#9760;&nbsp;Bạn phải chi ra nhiều hơn 2.000.000đ để học hết full bộ chương
+           trình.</p>
+       <p>&#9760;&nbsp;Không được tặng hosting, domain phục vụ cho xin việc làm.</p>
+   </div>
+            
+                     </div>
+                 </div>
+            
+             </div>
+             <!--ketthuc duoc va mat-->
+         </div>
+         <!--ketthuc container-->
+         <br>
+         <div class="container-fluid">
+             <div id="luuy">
+                 <h1 class="luuy" style="color: rgb(56, 56, 156);border-bottom: 1px solid #9c9292;">
+                     Lưu ý:
+                 </h1>
+                 <div class="contentluuy">
+                     Chương trình ưu đãi combo được phát hành với số lượng có hạn, dành riêng cho những ai
+                     thấy ưu đãi này. Tôi và Unitop luôn tạo mọi điều kiện tốt nhất để bạn có thể học với mức
+                     phí nhỏ nhất và đạt kết quả tốt nhất.
+                 </div>
+             </div>
+         </div>
+         <!--ketthuc container-->
+         <br>
+         <div class="nhan text-center" style="font-size:38px;">
+             Những thứ bạn nhận được
+         </div>
+         <h1 class="nhan1 text-center" style="color: #0f59e4;">GÓI COMBOFULL 8 KHÓA UNITOP</h1>
+         <div class="imgnhan">
+             <img src="./img/5sao.PNG" alt="" width="200px">
+         </div>
+         <div class="nhan text-center" style="font-size:25px;">
+             Bên dưới chính là toàn bộ khóa học bạn nhận được trong gói combo 8. Mỗi giai đoạn là mỗi mảnh
+             ghép giúp bạn hoàn thiện kỹ năng xây dựng website theo ý tưởng của mình và từ đó có thể đi làm
+             kiếm tiền.
+         </div>
+         <!--Danh Muc San Pham-->
+         <br>
+         <div id="dmm">
+             <div class="row" id="danhmuc1">
+                 <div class="col-sm-6 col-md-6 col-lg-3">
+                     <div class="card" id="danhmuccard">
+   <img class="card-img-top" src="./img/img-html-css1.png" alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title">Thành thạo xây dựng giao diện web thực
+           tế</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(100)</span>
+           <br>
+           <div class="text-muted">750 người đang học
+            
+           </div>
+           <div class="info-price">
+               <span class="tiennho">999.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;499.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+       </div>
+            
+   </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card" id="danhmuccard">
+   <img class="card-img-top" src="./img/img-javascript.png" alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title">Javascript nền tảng cho lập trình web</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(27)</span>
+           <br>
+           <div class="text-muted">776 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">150.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;150.000<span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+            
+       </div>
+   </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card">
+   <img class="card-img-top" src="./img/img-js.png" alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title">Làm chủ jquery siêu tốc</h6>
+            
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(40)</span>
+           <br>
+           <div class="text-muted">474 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">2.200.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;899.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+            
+       </div>
+   </div>
+                     </div>
+                 </div>
+        
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card">
+   <img class="card-img-top" src="./img/img-responsive.png" alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title">Bí quyết responsive làm website trên đa thiết bị</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(34)</span>
+           <br>
+           <div class="text-muted">485 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">1.200.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;699.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+       </div>
+   </div>
+                     </div>
+                 </div>
+               
+             </div>
+             <br>
+             <div class="row" id="danhmuc2">
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card">
+   <img class="card-img-top" src="./img/BootstrapAz-unitop_vn-phan-van-cuong.png"
+       alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title1">Bootstrap AZ - Xây dựng giao diện website chuẩn, nhanh</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(18)</span>
+           <br>
+           <div class="text-muted">306 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">1.860.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;799.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+            
+       </div>
+   </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card">
+   <img class="card-img-top"
+       src="./img/Xây-dựng-hệ-thống-web-php-cho-người-mới-bắt-đầu---Unitop_vn.png"
+       alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title1">Php Master - Học lập trình web php từ cơ bản đến nâng cao</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(24)</span>
+           <br>
+           <div class="text-muted">443 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">3.860.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;1.480.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+            
+       </div>
+   </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card">
+   <img class="card-img-top" src="./img/khoa-hoc-laravel-unitop.png"
+       alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title1">Laravel Pro - khóa học lập trình web php chuyên nghiệp với</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(9)</span>
+           <br>
+           <div class="text-muted">247 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">8.600.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;1.680.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+            
+       </div>
+   </div>
+                     </div>
+                 </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3 ">
+                     <div class="card">
+   <img class="card-img-top"
+       src="./img/Triển-khai-dự-án-lên-mạng-internet-chỉ-với-30-phút.png"
+       alt="Card image cap">
+   <div class="card-body">
+       <h6 class="card-title1">Triển khai dự án web lên mạng internet chỉ với 30 phút</h6>
+       <a href="">Hoàng Hải Dương</a>
+       <div class="show-start">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <span class="nguoimua">(13)</span>
+           <br>
+           <div class="text-muted">235 người đang học</div>
+           <div class="info-price">
+               <span class="tiennho">1.280.000<span style="font-size: small; font-style: italic;">đ</span>&nbsp;</span>
+               <span class="tien">&nbsp;860.000 <span style="font-size: small; font-style: italic;">đ</span></span>
+            
+           </div>
+       </div>
+   </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <br>
+         <div class="boxquytrinh">
+             <div class="quytrinh text-center"><h2>Quy trình đăng kí khoá học</h2></div>
+             <div class="box-body">
+                 <ul id="list-quytrinh" class="row">
+                     <li class="col-md-4">
+                     <span class="number">1</span>
+                     <span class="step-name">XEM LỘ TRÌNH</span>
+                     <p class="step-help">
+   Đây là lộ trình 9 bước hiệu quả giúp bạn học lập trình web đi làm Xem lộ trình
+                     </p>
+                     </li>
+                     <li class="col-md-4">
+   <span class="number">2</span>
+                     <span class="step-name">ĐĂNG KÝ</span>
+                     <p class="step-help">Bạn chọn khóa học sau đó nhấn nút Đăng ký khóa học và làm theo hướng dẫn</p>
+                     </li>
+                     <li class="col-md-4">
+                     <span class="number">3</span>
+                     <span class="step-name">THANH TOÁN</span>
+                     <p class="step-help">Bạn tiến hành thanh toán khóa học qua chuyển khoản hoặc nhận tại nhà</p>
+                     </li>
+                     <li class="col-md-4">
+   <span class="number">4</span>
+                     <span class="step-name">KÍCH HOẠT</span>
+                     <p class="step-help">Sau khi thanh toán thành công bạn nhận được hướng dẫn kích hoạt khóa học qua email</p>
+                     </li>
+                     <li class="col-md-4">
+   <span class="number">5</span>
+                     <span class="step-name">VÀO NHÓM HỖ TRỢ</span>
+                     <p class="step-help">Bạn được thêm vào 2 nhóm kín và được kèm cặp 24/24 trong quá trình học</p>
+                     </li>
+                     <li class="col-md-4">
+   <span class="number">6</span>
+                     <span class="step-name">BẮT ĐẦU HỌC</span>
+                     <p class="step-help">Cuối cùng bạn click vào nút Vào Học để bắt đầu chương trình của mình</p>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+       
+
+
+     </div>
+ </div>
+ <!--Kết thúc cột phải-->
+                    </div>
+                </div><!--ket thuc div container-->
+            </div><!--Ket thuc cột phải-->
+        </div><!--Kết thúc div bao 2 cột-->
+    </div><!--Kết thúc div tổng-->
+    <div class="thanhtuu">
+      
+        <div class="container">
+            <div class="hat1">Một số Thành Tựu chúng tôi đã đạt được</div>
+            <div class="row tonghocvien">
+                
+                <div class="col-4">
+                   
+                <h1 class="sohocvien">1.286</h1>
+                <p>Số học viên đã tham dự</p>
+                </div>
+                <div class="col-4">
+                    <h1 class="sohocvien">95%</h1>
+                <p>Tỉ lệ học viên hài lòng có việc làm</p>
+                </div>
+                <div class="col-4">
+                    <h1 class="sohocvien">8</h1>
+                <p>Số quốc gia có học viên tham dự
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="footer" class="py-4">
+    <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+            <a href="tel:0929680125" class="pps-btn-img">
+                <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+            </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0929680125">
+                <span class="text-hotline">0929680125</span>
+            </a>
+        </div>
+    </div>
+    <a class="btn-top fa fa-toggle-up" href="javascript:void(0);" title="Top" style="display: inline; font-size: 34px; color: red;"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="boxf">
+                    <div class="box-foot"><h4>VỀ CHÚNG TÔI</h4></div>
+                    <div class="box-nd-foot pr-5">
+ <p>Đây là hệ thống đào tạo lập trình web online theo lộ trình từng bước. Hệ thống phát triển từ tháng 6/2017 đến nay đã có gần 2.000 người theo học và đạt kết quả tốt.</p>
+ <p>Địa chỉ:93/34B Khu phố 5,Phường Hố Nai,Biên Hoà-Đồng Nai</p>
+ Giấy phép ĐKKD số: 0107601701
+ Ngày cấp: 08/3/2021.
+ <p>Nơi cấp: Sở kế hoạch và đầu tư thành phố Biên Hoà</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="boxf">
+                    <div class="box-foot"><h4>HỖ TRỢ</h4></div>
+                    <div class="box-nd-foot">
+ <ul class="fter">
+     <li><a href="">Giới thiệu</a></li>
+     <li><a href="">Admin Hỗ trợ</a></li>
+     <li><a href="">Blog lập trình</a></li>
+ </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="boxf">
+                    <div class="box-foot"><h4>Theo Dõi</h4></div>
+                    <div class="box-nd-foot">
+ <ul class="fter">
+     <li><a href=""><i class="fa fa-facebook">&nbsp;&nbsp;FaceBook</i></a></li>
+     <li><a href=""><i class="fa fa-youtube">&nbsp;&nbsp;Youtube</i></a></li>
+ </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="./js/main.js"></script>
+  
+</body>
+
+</html>

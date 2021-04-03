@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../BT JS2/sign-up/css-sign/sign-up.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Đăng Ký</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-content">
+            <div class="hder-1">
+                <h1 class="chuphatsang">Đăng Ký</h1>
+            </div>
+            <hr style="background: white;">
+            <div id="form-login">
+                <form action="">
+                    <label for="" class="user-name">Tên tài khoản :</label>
+                    <input type="text" id="username" pattern="[A-Za-z]{8,30}"title="Vui lòng nhập đúng định dạng yêu cầu(ít nhất 8-30 kí tự,và không có số)" required>
+                    <div id="error5" style="display: none; color: white;">
+                        Vui lòng nhập username...
+                    </div>
+                    <br><br>    
+                    <label for="" class="user-name">Mật khẩu :</label>
+                    <input type="password" id="psw1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Mật khẩu phải từ 8 kí tự trở lên, có ít nhất 1 chữ hoa,1 chữ thường và 1 số" required>
+                    <div id="error4" style="display: none; color: white;">
+                        Vui lòng nhập mật khẩu...
+                    </div>
+                    <br><br>    
+                    
+                    <label for="" class="user-name">Nhập lại mật khẩu :</label>
+                    <input type="password"  id="psw2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Mật khẩu không khớp" required>
+                    <div id="error0" style="display: none;color: white;">
+                        Mật khẩu không khớp,vui lòng nhập lại
+                    </div>
+                   
+                    <div class="submit">
+                        <input id="submit" type="submit" value="Submit" onclick="myfunction()">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../BT JS2/sign-up/js-sign/sign-up.js"></script>
+</body>
+</html>

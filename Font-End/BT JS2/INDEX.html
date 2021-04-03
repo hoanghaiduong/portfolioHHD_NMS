@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Dang Nhap</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box-content">
+            <div class="hder-1">
+                <h1 class="chuphatsang">Đăng Nhập</h1>
+            </div>
+            <div id="form-login">
+                <form action="">
+                    <label for="username" class="user-name">Tên Đăng Nhập</label>
+                    <br>
+                    <input type="text" minlength="8" maxlength="30" onclick="" id="username" name="login">
+                    <br>
+                    <br>
+                    <div id="error" style="display: none;">
+                        Vui lòng nhập tên của bạn...
+                    </div>
+                    <div id="successfully1" style="display: none;color: white;">
+                        <div id="myProgress">
+                            <div id="myBar">
+                               1
+                            </div>
+                          </div>
+                          Đang kiểm tra
+                      
+                    </div>
+                 
+                    <div id="success1" style="display: none;color: #07fc07;">
+                        Sucessfully
+                    </div>
+                    <label for="" class="user-name">Password</label>
+                    <br>
+                    <input type="password" id="psw" name="pass">
+                    <br>
+                    <br>
+                    <div id="successfully2" style="display: none; color: white;">
+                        <div id="myProgress">
+                            <div id="myBar1">
+                               1
+                            </div>
+                        </div>
+                        Đang kiểm tra
+                        
+                    </div>
+                    <br>
+                    <div id="success2" style="display: none;color: white;">
+                        Sucessfully
+                    </div>
+                  
+                    <div id="error1" style="display: none;">
+                        Vui lòng nhập password...
+                    </div>
+                    
+                    <div class="button-login">
+                        <button id="submit" type="submit">
+                            Đăng Nhập
+                        </button>
+                    </div>
+                  
+                </form>
+                <div id="footer">
+                    <div id="div-contentdk1" style="color: rgb(246, 246, 248);">
+                        <h6>Bạn chưa có tài khoản?</h6>
+                 </div>
+                 <div id="div-contentdk-3" style="color: white;font-size: 1.5em; text-align: center;text-shadow: 2px 1px 2px black;
+                 ">
+                    &#8680;&#8680;&#8680;
+                 </div>
+                 <div id="div-contentdk2">
+                     <a href="../BT JS2/sign-up.html">Đăng kí</a>
+                 </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <script src="./javasc/main.js"></script>
+</body>
+</html>
